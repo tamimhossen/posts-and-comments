@@ -9,7 +9,7 @@ const PostDetails = () => {
     const {id} = useParams();
     const [post, setPost] = useState([]);
     const [comments, setComments] = useState([]);
-    const [userIcon, setUserIcon] = useState([]);
+    // const [userIcon, setUserIcon] = useState([]);
     useEffect(() => {
         fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
         .then(res => res.json())
