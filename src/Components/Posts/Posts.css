@@ -1,0 +1,10 @@
+.single-post {
+    margin: 15px 25px;
+    padding: 25px 25px;
+    border: 1px solid lightgray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
